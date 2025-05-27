@@ -1,0 +1,13 @@
+---
+- name:
+  package:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - httpd  
+    - php
+    - php-mysql
+- name: start service     
+
+  with_items:
+    - epel-release
