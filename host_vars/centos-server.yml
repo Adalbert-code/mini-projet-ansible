@@ -1,4 +1,4 @@
 ansible_password: admin
-ansible_host: 10.0.47.5
+ansible_host: 10.0.49.5 # ip machine client sur easylab
 ansible_become: true 
 ansible_become_password: admin
